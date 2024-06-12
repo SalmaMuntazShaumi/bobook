@@ -1,6 +1,7 @@
 import 'package:bobook/component/footer.dart';
 import 'package:bobook/constant/colors.dart';
 import 'package:bobook/constant/text_style.dart';
+import 'package:bobook/screen/booking.dart';
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 
@@ -71,6 +72,21 @@ class BooksDetail extends StatelessWidget {
                         overflow: TextOverflow.clip,
                       ),
                     ),
+                    const SizedBox(height: 16),
+                    Row(
+                      children: [
+                        Text(
+                          'Status : ',
+                          style: AppTextStyle.appRegulerTextStyle(
+                              Colors.black87, 14),
+                        ),
+                        Text(
+                          'READY',
+                          style:
+                              AppTextStyle.appMediumTextStyle(Colors.green, 14),
+                        )
+                      ],
+                    ),
                     const SizedBox(height: 24),
                     Row(
                       children: [
@@ -99,7 +115,10 @@ class BooksDetail extends StatelessWidget {
                         ),
                         const SizedBox(width: 12),
                         GestureDetector(
-                          onTap: () {},
+                          onTap: () => Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const Booking())),
                           child: Container(
                             padding: const EdgeInsets.symmetric(
                                 horizontal: 18, vertical: 8),
