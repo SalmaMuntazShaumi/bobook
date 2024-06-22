@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "742913405292",
+    "firebase_url": "https://bobook-36d20-default-rtdb.firebaseio.com",
+    "project_id": "bobook-36d20",
+    "storage_bucket": "bobook-36d20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742913405292:android:7b8b126af04194275c4349",
+        "android_client_info": {
+          "package_name": "com.example.bobook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOFFZ-sLK30hXdrO4ieEfO31tRai29z20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

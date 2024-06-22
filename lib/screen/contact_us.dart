@@ -16,7 +16,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
   TextEditingController _nameController = TextEditingController();
   TextEditingController _emailController = TextEditingController();
   TextEditingController _phoneController = TextEditingController();
-  TextEditingController _massageController = TextEditingController();
+  TextEditingController _messageController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -115,7 +115,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Massage Us',
+                Text('Message Us',
                     style: AppTextStyle.appBoldTextStyle(Colors.black87, 28)),
                 const SizedBox(height: 8),
                 Text('Mon-Fri from 08AM to 5PM',
@@ -188,7 +188,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Massage Us',
+                    Text('Message Us',
                         style: AppTextStyle.appMediumTextStyle(
                             Colors.black87, 18)),
                     const SizedBox(height: 12),
@@ -200,7 +200,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                         decoration: InputDecoration(
                             border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(8))),
-                        controller: _massageController,
+                        controller: _messageController,
                       ),
                     ),
                     SizedBox(height: 24),
@@ -209,7 +209,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                         width: 800,
                         child: ElevatedButton(
                             onPressed: () {},
-                            child: Text('Send Massage 📨',
+                            child: Text('Send Message 📨',
                                 style: AppTextStyle.appSemiBoldTextStyle(
                                     Colors.white, 18)),
                             style: ButtonStyle(

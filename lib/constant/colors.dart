@@ -8,4 +8,5 @@ class CustomColors {
   static const Color inactiveColor = Colors.transparent;
   static final Color secondaryColor = const Color(0xff806248).withOpacity(0.85);
   static const Color buttonColor = Color(0xff806248);
+  static const Color splashColor = Color(0xff806240);
 }
