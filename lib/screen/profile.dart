@@ -30,18 +30,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Image.asset('assets/user.png', height: 120),
+                Image.asset('assets/profile_non.png', height: 120),
                 const SizedBox(width: 24),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    Text('Siti Fitri Cahyadi',
+                    Text('Salma',
                         style: AppTextStyle.appSemiBoldTextStyle(
                             Colors.black87, 24)),
                     const SizedBox(height: 12),
                     Text(
-                      '270763874563',
+                      '2702267262',
                       style:
                           AppTextStyle.appMediumTextStyle(Colors.black54, 18),
                     )
