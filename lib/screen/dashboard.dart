@@ -45,7 +45,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
             child: Text(
-              'Welcome User!',
+              'Welcome Salma!',
               style: AppTextStyle.appSemiBoldTextStyle(Colors.black87, 26),
             ),
           ),
